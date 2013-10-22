@@ -117,7 +117,7 @@ module.exports = function (grunt) {
               files: src,
               tasks: [],
               options: {
-                  nospawn: true
+                  interval: 500
               }
           });
 
